@@ -59,10 +59,9 @@ def iss():
             return False
     else:
         return False
-
-
+        
+i=1
 while True:
-    i=1
     time.sleep(80) #every 80 seconds it searches for the ISS
     if iss():
         connection=smtplib.SMTP("smtp.gmail.com")
